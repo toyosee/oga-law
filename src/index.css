@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+
+/* Custom theme colors for OgaLaw */
+@theme {
+  --color-ogalaw-green: #008753;
+  --color-ogalaw-green-dark: #006c42;
+  --color-ogalaw-green-light: #e6f5ed;
+  --color-ogalaw-gold: #D4A843;
+  --color-ogalaw-gold-light: #fef9f0;
+  --color-ogalaw-dark: #0a0a0a;
+  --color-ogalaw-darker: #050505;
+  --color-ogalaw-gray: #1a1a1a;
+
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-ogalaw-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-ogalaw-green);
+  border-radius: 4px;
+}
+
+/* Gradient text utility */
+.gradient-text {
+  background: linear-gradient(135deg, var(--color-ogalaw-green) 0%, var(--color-ogalaw-gold) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Glass effect */
+.glass {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Glow effects */
+.glow-green {
+  box-shadow: 0 0 40px rgba(0, 135, 83, 0.15);
+}
+
+.glow-gold {
+  box-shadow: 0 0 40px rgba(212, 168, 67, 0.15);
+}
+
+/* Pattern overlay */
+.pattern-overlay {
+  background-image: radial-gradient(rgba(0, 135, 83, 0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-ogalaw-darker);
+  color: #ffffff;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
