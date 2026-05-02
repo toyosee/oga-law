@@ -59,8 +59,8 @@ const Navbar = () => {
                 <Link to="/how-it-works" className="text-gray-400 hover:text-white text-sm font-medium transition-colors" onClick={() => setIsOpen(false)}>
                   How It Works
                 </Link>
-                <button onClick={() => scrollToSection('marketplace')} className="text-gray-400 hover:text-white text-sm font-medium transition-colors">
-                  For Lawyers
+                <button onClick={() => scrollToSection('voices')} className="text-gray-400 hover:text-white text-sm font-medium transition-colors">
+                  For Voices
                 </button>
                 <button onClick={() => scrollToSection('about')} className="text-gray-400 hover:text-white text-sm font-medium transition-colors">
                   About
