@@ -29,8 +29,8 @@ const features = [
   },
   {
     icon: Globe,
-    title: 'Verified Lawyer Network',
-    description: 'AI not enough? Connect instantly to NBA-verified lawyers via in-app consultation with escrow payments.',
+    title: 'Escalation to Voices',
+    description: 'AI not enough? Submit your documented case to our network of trusted Nigerian activists and influencers who amplify your fight.',
   },
 ];
 

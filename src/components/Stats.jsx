@@ -1,9 +1,16 @@
 import { motion } from 'framer-motion';
 
+// const stats = [
+//   { number: '110M+', label: 'Nigerian Adults', sublabel: 'Total Addressable Market' },
+//   { number: '70%', label: 'Can\'t Name 3 Rights', sublabel: 'Knowledge Gap' },
+//   { number: '100K+', label: 'Licensed Lawyers', sublabel: 'Ready to Serve' },
+//   { number: '<30s', label: 'Response Time', sublabel: 'From Question to Answer' },
+// ];
+
 const stats = [
   { number: '110M+', label: 'Nigerian Adults', sublabel: 'Total Addressable Market' },
-  { number: '70%', label: 'Can\'t Name 3 Rights', sublabel: 'Knowledge Gap' },
-  { number: '100K+', label: 'Licensed Lawyers', sublabel: 'Ready to Serve' },
+  { number: '70%', label: "Can't Name 3 Rights", sublabel: 'Knowledge Gap' },
+  { number: '50M+', label: 'Combined Voice Reach', sublabel: 'Amplification Network' },
   { number: '<30s', label: 'Response Time', sublabel: 'From Question to Answer' },
 ];
 

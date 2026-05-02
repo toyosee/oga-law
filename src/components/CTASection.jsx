@@ -38,13 +38,22 @@ const CTASection = () => {
               Get Early Access — Free
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </motion.button>
+            
+            {/* Voices join button section */}
             <motion.button
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
               className="border border-gray-700 hover:border-ogalaw-green/50 text-white px-10 py-5 rounded-2xl font-bold text-lg"
             >
+              I'm a Voice — Join the Network
+          </motion.button>
+            {/* <motion.button
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.98 }}
+              className="border border-gray-700 hover:border-ogalaw-green/50 text-white px-10 py-5 rounded-2xl font-bold text-lg"
+            >
               I'm a Lawyer — Join the Network
-            </motion.button>
+            </motion.button> */}
           </div>
 
           <p className="text-gray-600 text-sm mt-6">

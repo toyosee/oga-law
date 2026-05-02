@@ -20,8 +20,8 @@ const steps = [
   {
     number: '03',
     icon: Zap,
-    title: 'Take Action',
-    description: 'Use the script. Generate a complaint letter. Or connect to a verified lawyer for in-app consultation.',
+    title: 'Escalate For Accountability',
+    description: 'Submit your documented case to OgaLaw Verified Voices — trusted activists who amplify your fight to millions.',
     color: 'from-ogalaw-gold to-yellow-500',
   },
 ];

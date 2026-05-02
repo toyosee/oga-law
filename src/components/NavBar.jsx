@@ -101,8 +101,8 @@ const Navbar = () => {
                 <Link to="/how-it-works" onClick={() => setIsOpen(false)} className="block w-full text-left text-gray-400 hover:text-white py-2 text-sm transition-colors">
                   How It Works
                 </Link>
-                <button onClick={() => scrollToSection('marketplace')} className="block w-full text-left text-gray-400 hover:text-white py-2 text-sm transition-colors">
-                  For Lawyers
+                <button onClick={() => scrollToSection('voices')} className="block w-full text-left text-gray-400 hover:text-white py-2 text-sm transition-colors">
+                  For Voices
                 </button>
                 <button onClick={() => scrollToSection('about')} className="block w-full text-left text-gray-400 hover:text-white py-2 text-sm transition-colors">
                   About

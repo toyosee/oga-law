@@ -4,13 +4,14 @@ import Hero from './components/Hero';
 import Problem from './components/Problem';
 import Solution from './components/Solution';
 import HowItWorks from './components/HowItWorks';
-import Marketplace from './components/MarketPlace';
+// import Marketplace from './components/MarketPlace';
 import Stats from './components/Stats';
 import Testimonials from './components/Testimonials';
 import CTASection from './components/CTASection';
 import Footer from './components/Footer';
 import BackToTop from './components/BackToTop';
 import HowItWorksPage from './pages/HowItWorksPage';
+import Voices from './components/Voices';
 
 function HomePage() {
   return (
@@ -19,7 +20,8 @@ function HomePage() {
       <Problem />
       <Solution />
       <HowItWorks />
-      <Marketplace />
+      {/* <Marketplace /> */}
+      <Voices />
       <Stats />
       <Testimonials />
       <CTASection />

@@ -2,7 +2,7 @@ import { Shield } from 'lucide-react';
 import { FaTwitter, FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa';
 
 const footerLinks = {
-  Product: ['Features', 'Pricing', 'For Lawyers', 'Download'],
+  Product: ['Features', 'Pricing', 'For Voices', 'Download'],
   Company: ['About', 'Blog', 'Careers', 'Press'],
   Legal: ['Privacy Policy', 'Terms of Service', 'Disclaimer'],
   Support: ['Help Center', 'Contact', 'FAQ', 'Report Issue'],
