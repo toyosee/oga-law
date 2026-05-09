@@ -1,5 +1,6 @@
-import { Shield } from 'lucide-react';
+import { Shield} from 'lucide-react';
 import { FaTwitter, FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa';
+import SubscribeSection from './Subscribe';
 
 const footerLinks = {
   Product: ['Features', 'Pricing', 'For Voices', 'Download'],
@@ -21,6 +22,7 @@ const Footer = () => {
             </div>
             <p className="text-gray-500 text-sm mb-4">
               Know Law. No Shaking.
+            <SubscribeSection />
             </p>
             <div className="flex items-center gap-3">
               {[FaTwitter, FaLinkedin, FaInstagram, FaGithub].map((Icon, i) => (
