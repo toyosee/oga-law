@@ -126,8 +126,8 @@ const Hero = () => {
                   {/* Escalation Banner */}
                   <div className="bg-ogalaw-green/10 rounded-xl p-2.5 border border-ogalaw-green/20">
                     <div className="flex items-center gap-2 mb-1.5">
-                      <CheckCircle className="w-3.5 h-3.5 text-ogalaw-green" />
-                      <span className="text-[10px] font-semibold text-ogalaw-green">CASE READY TO ESCALATE</span>
+                      <CheckCircle className="w-3.5 h-3.5 text-ogalaw-gold" />
+                      <span className="text-[10px] font-semibold text-ogalaw-gold">CASE READY TO ESCALATE</span>
                     </div>
                     <p className="text-[10px] text-gray-300 leading-relaxed">
                       Your documented incident has been packaged with evidence and legal citations.
@@ -202,7 +202,7 @@ const Hero = () => {
                   </div>
 
                   {/* Footer Note */}
-                  <p className="text-[9px] text-gray-500 text-center">
+                  <p className="text-[9px] text-ogalaw-gold text-center">
                     Your identity is protected. You control anonymity.
                   </p>
                 </div>
